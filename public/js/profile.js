@@ -11,6 +11,6 @@ function init(){
 
 function makeProfile(e){
   e.preventDefault();
-  var emailHash = md5($('#txtEmail').val());
+  // var emailHash = md5($('#txtEmail').val());
   console.log(emailHash);
 }

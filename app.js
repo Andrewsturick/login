@@ -9,7 +9,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var morgan = require('morgan');
 var cookieParser = require('cookie-parser');
-var md5 = require('./md5')
+// var md5 = require('./md5')
 
 //mongo db connection
 var mongoUrl = process.env.MONGOLAB_URI|| 'mongodb://localhost/userauth'

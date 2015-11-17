@@ -4,6 +4,7 @@ $(document).ready(init);
 
 function init(){
   $('#login').on('click', authenticateUser)
+
 }
 
 
