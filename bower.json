@@ -1,0 +1,24 @@
+{
+  "name": "loginapp",
+  "description": "",
+  "main": "app.js",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sweetalert": "~1.1.3",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "fontawesome#~4.4.0",
+    "jquery": "jQuery#~2.1.4",
+    "bootswatch": "~3.3.5+4"
+  }
+}

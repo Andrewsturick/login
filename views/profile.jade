@@ -1,0 +1,91 @@
+extends ./layout
+
+block css
+  link(href="index.css", rel='stylesheet')
+
+block content
+
+  h1 hello!!!
+
+
+  div
+      form
+        fieldset
+          legend  Create Your Username and Password  
+          p
+            label  Name 
+            input#txtName(type='email', value='')
+          p
+            label  Email 
+            input#txtEmail(type='text', value='')
+          p
+            label  Username 
+            input#txtUsername(type='text', value='')
+      
+      form
+        fieldset
+          legend  Profile Info (optional) 
+          p
+            label  Location 
+            input#txtLocation(type='text', value='', size='20')
+          p
+            label  How often do you trade? 
+            select#selTradeActivity
+              option(style='display:none;', value='selNone', disabled='', selected='') Please Select One
+              option(value='sel0_2') 0-2 Trades Per Week
+              option(value='sel2_5') 2-5 Trades Per Week
+              option(value='sel5_10') 5-10 Trades Per Week
+              option(value='sel10-25') 10-25 Trades Per Week
+              option(value='sel25_50') 25-50 Trades Per Week
+              option(value='sel50+') 50+ Trades Per Week
+          p
+            label  What securities do you like to trade? 
+          p
+            textarea#txtPerferredSecurities(placeholder='Please input text here', rows='7', cols='50')
+          p
+            label  What are you most interested in learning about? 
+          table(border='1')
+            tr
+              td
+                p
+                  input(type='checkbox', id='', value='')
+                  |  Long Term / Value Investing
+                p
+                  input(type='checkbox', id='', value='')
+                  |  Technical Trading/ Charting
+                p
+                  input(type='checkbox', id='', value='')
+                  |  Options
+                p
+                  input(type='checkbox', id='', value='')
+                  |  Stocks and Equities
+              td#tester
+                p
+                  input(type='checkbox', id='', value='')
+                  |  ETF's
+                p
+                  input(type='checkbox', id='', value='')
+                  |  Quantitative Finance/Trading
+                p
+                  input(type='checkbox', id='', value='')
+                  |  Futures and Commodities
+                p.equities
+                  input(type='checkbox', id='', value='')
+                  |  Currencies (currencies futures)
+              td
+                p
+                  input(type='checkbox', id='', value='')
+                  | Global Equities and Markets
+                p
+                  input(type='checkbox', id='', value='')
+                  |  Penny Stocks
+                p
+                  input(type='checkbox', id='', value='')
+                  |  Bonds, Notes, Interest Rates and Inflation
+                p
+                  input(type='checkbox', id='', value='')
+                  |  Earnings
+  button#submit submit
+                
+block js
+  script(src='js/profile.js')

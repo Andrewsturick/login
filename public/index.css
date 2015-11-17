@@ -1,0 +1,41 @@
+
+body{
+
+
+
+  text-align: center;
+Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#03a96c+0,02905c+44,006e46+100 */
+background: rgba(26,188,142,1);
+background: -moz-linear-gradient(left, rgba(26,188,142,1) 0%, rgba(3,126,91,1) 88%, rgba(0,117,84,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(26,188,142,1)), color-stop(88%, rgba(3,126,91,1)), color-stop(100%, rgba(0,117,84,1)));
+background: -webkit-linear-gradient(left, rgba(26,188,142,1) 0%, rgba(3,126,91,1) 88%, rgba(0,117,84,1) 100%);
+background: -o-linear-gradient(left, rgba(26,188,142,1) 0%, rgba(3,126,91,1) 88%, rgba(0,117,84,1) 100%);
+background: -ms-linear-gradient(left, rgba(26,188,142,1) 0%, rgba(3,126,91,1) 88%, rgba(0,117,150,85) 100%);
+background: linear-gradient(to right, rgba(26,188,142,1) 0%, rgba(3,126,91,1) 88%, rgba(0,117,84,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1abc8e', endColorstr='#007554', GradientType=1 );
+
+
+}
+
+input{max-width: 100%;
+
+}
+
+
+#Register{
+margin-top: 50px;
+
+}
+.loginHolder{
+  border:1px solid white;
+  border-radius: 10%;
+  margin:auto;
+  height:350px;
+  width:30%;
+}
+
+#pword{
+
+  margin-top: 50px;
+  width:40%;
+}

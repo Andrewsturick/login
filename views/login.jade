@@ -1,0 +1,22 @@
+extends ./layout
+block css
+  link(href="index.css", rel='stylesheet')
+
+block content
+  .container
+      div.loginHolder  
+        form
+          .form-group
+            label(for='username') Username
+            br
+            input#username(type='text', placeholder='Username')      
+            br
+          .form-group 
+            label(for='password') Password
+            br
+            input#password(type='password', placeholder='Password')
+            br
+            button.btn.btn-default#login Login
+
+block js
+   script(src="js/login.js")
